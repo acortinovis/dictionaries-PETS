@@ -21,6 +21,6 @@ counter=1
 for pet in pets:
     print('')
     print(f'animal number {counter} informations:')
-    counter=+1
+    counter+=1
     print(f'kind of animal: {pet['animal']}')
     print(f"owner's name: {pet['owner']}")
